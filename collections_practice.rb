@@ -41,3 +41,7 @@ end
 def find_a(array)
   array.select { |element| element[0] == "a" }
 end
+
+def sum_array(array)
+  array.select { |element| 
+end
