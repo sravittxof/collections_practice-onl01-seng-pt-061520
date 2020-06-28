@@ -28,21 +28,13 @@ def kesha_maker(array)
   new_array = []
   i = 0
   while i < array.size
-    new_array << array[i]
+      sub_array = []
+      n = 0
+      while n < array[i].length
+        sub_array << array[i][n]
+        n += 1
+      end
+    new_array << sub_array
     i += 1
   end
-  m = 0
-  while m < new_array.size
-    new_array[m].split("")
-    m += 1
-  end
-  n = 0
-  while n < new_array.size
-    if new_array[n][m].length < 2
-      
-      new_array[n][2] = "$"
-    end
-    n += 1
-  end
-  new_array
 end
