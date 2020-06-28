@@ -44,5 +44,6 @@ end
 
 def sum_array(array)
   only_integers = array.select { |element| element.is_a? Integer }
-  
+  sum = 0
+  only_integers.each { |i| sum 
 end
