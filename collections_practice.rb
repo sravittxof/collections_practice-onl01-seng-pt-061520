@@ -33,9 +33,7 @@ def kesha_maker(array)
   end
   n = 0
   while n < new_array.size
-    if new_array[n].length < 3
-      n
-    else
+    if new_array[n].length < 2
       new_array[n][2] = "$"
     end
     n += 1
