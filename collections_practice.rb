@@ -28,9 +28,10 @@ def kesha_maker(array)
   new_array = []
   i = 0
   while i < array.size
-    n = 0
+    first_two = array[i][0..1]
+    third = "$"
+    remaining = array[i][3..(array[i].size - 1)]
     
-    element_i = array[i]
 
     
     
