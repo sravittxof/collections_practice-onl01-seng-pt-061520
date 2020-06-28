@@ -46,3 +46,7 @@ def sum_array(array)
   only_integers = array.select { |element| element.is_a? Integer }
   only_integers.sum
 end
+
+def add_s
+  
+end
