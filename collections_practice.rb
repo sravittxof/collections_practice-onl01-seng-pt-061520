@@ -28,13 +28,9 @@ def kesha_maker(array)
   new_array = []
   i = 0
   while i < array.size
-      sub_array = []
-      n = 0
-      while n < array[i].length
-        sub_array << array[i][n]
-        n += 1
-      end
+    sub_array = array[i].split
     new_array << sub_array
     i += 1
   end
+  
 end
