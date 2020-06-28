@@ -43,5 +43,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.select { |element| 
+  array.select { |element| element.is
 end
