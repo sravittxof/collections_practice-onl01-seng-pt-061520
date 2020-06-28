@@ -43,5 +43,6 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.select { |element| element.is_a? Integer }
+  only_integers = array.select { |element| element.is_a? Integer }
+  
 end
