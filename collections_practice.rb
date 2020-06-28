@@ -30,14 +30,10 @@ def kesha_maker(array)
   while i < array.size
     first_two = array[i][0..1]
     third = "$"
-    remaining = array[i][3..(array[i].size - 1)]
-    
-
-    
-    
-    
-    new_array << sub_array
+    remaining = array[i][3..(array[i].length - 1)]
+    string_i = "#{first_two} + #{third} + #{remaining}"
+    new_array << string_i
     i += 1
   end
-  new_array  
+  new_array
 end
