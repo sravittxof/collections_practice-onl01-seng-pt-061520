@@ -31,9 +31,14 @@ def kesha_maker(array)
     new_array << array[i]
     i += 1
   end
+  m = 0
+  while m < new_array.size
+    new_array[m].split("")
+    m += 1
+  end
   n = 0
   while n < new_array.size
-    if new_array[n].length < 2
+    if new_array[n][m].length < 2
       
       new_array[n][2] = "$"
     end
