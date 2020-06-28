@@ -31,7 +31,7 @@ def kesha_maker(array)
     first_two = array[i][0..1]
     third = "$"
     remaining = array[i][3..(array[i].length - 1)]
-    string_i = "#{first_two} + #{third} + #{remaining}"
+    string_i = "#{first_two}" + "#{third}" + "#{remaining}"
     new_array << string_i
     i += 1
   end
